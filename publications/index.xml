@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Charles Rocabert&#39;s personal website</title>
-    <link>http://charlesrocabert.github.io/publications/</link>
+    <link>https://charlesrocabert.github.io/publications/</link>
     <description>Recent content in Publications on Charles Rocabert&#39;s personal website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Sep 2020 13:12:31 -0700</lastBuildDate><atom:link href="http://charlesrocabert.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Sep 2020 13:12:31 -0700</lastBuildDate><atom:link href="https://charlesrocabert.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
