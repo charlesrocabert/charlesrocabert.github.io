@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://charlesrocabert.github.io/software/</loc>
+    <lastmod>2021-10-25T17:14:49+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://charlesrocabert.github.io/cv/</loc>
+    <lastmod>2021-10-23T19:31:02+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://charlesrocabert.github.io/blog/</loc>
     <lastmod>2020-09-18T13:12:38-07:00</lastmod>
   </url>
