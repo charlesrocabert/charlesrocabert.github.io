@@ -11,7 +11,6 @@
     gtag('js', new Date());
     gtag('config', 'G-R5FPWGD7WK');
   </script>
-  <script async defer data-website-id="a7e9350f-c23f-4121-96a1-2acd478a356d" src="https://siteperso-umami.herokuapp.com/umami.js"></script>
 	
 	<title>Charles Rocabert | Software</title>
 	
@@ -22,9 +21,37 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-  
+  <link rel="stylesheet" href="css/bootstrap-4.2.1.min.css">
+  <link rel="stylesheet" href="../css/bootstrap-4.2.1.min.css">
+  <link rel="stylesheet" href="../../css/bootstrap-4.2.1.min.css">
+	<link rel="stylesheet" href="css/fontawesome-5.6.3.min.css">
+  <link rel="stylesheet" href="../css/fontawesome-5.6.3.min.css">
+  <link rel="stylesheet" href="../../css/fontawesome-5.6.3.min.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ" crossorigin="anonymous">
+
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js" integrity="sha384-VQ8d8WVFw0yHhCk5E8I86oOhv48xLpnDZx5T9GogA/Y84DcCKWXDmSDfn13bzFZY" crossorigin="anonymous"></script>
+
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
+      onload="renderMathInElement(document.body);"></script>
+  <script>
+  document.addEventListener("DOMContentLoaded", function()
+  {
+    renderMathInElement(document.body,
+    {
+      delimiters: [
+        {left: "$$", right: "$$", display: true},
+        {left: "$", right: "$", display: false}
+      ]
+    });
+  });
+  </script>
+
 	<style>
 	html {
 		font-size: 1rem;
@@ -129,6 +156,9 @@
         <a href="https://www.linkedin.com/in/charles-rocabert/" target="_blank" class="text-dark"><i class="fab fa-linkedin-in fa-2x"></i></a>&nbsp;&nbsp;
       </li>
       <li class="nav-item" style="margin-right:10px;">
+        <a href="https://twitter.com/CharlesRocabert" target="_blank" class="text-dark"><i class="fab fa-twitter fa-2x"></i></a>&nbsp;&nbsp;
+      </li>
+      <li class="nav-item" style="margin-right:10px;">
         <a href="mailto:charles[dot]rocabert[at]helsinki[dot]fi" target="_blank" class="text-dark"><i class="fas fa-envelope fa-2x"></i></a>
       </li>
     </ul>
@@ -165,12 +195,12 @@
                   <a href="https://github.com/charlesrocabert/MetEvolSim/actions" target="_blank"><img src="https://github.com/charlesrocabert/MetEvolSim/workflows/Upload Python Package/badge.svg" /></a>&nbsp;
                   <a href="https://github.com/charlesrocabert/MetEvolSim/LICENSE.html" target="_blank"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg" /></a>
                 </p>
-                <p class="card-text text-justify font-weight-light">MetEvolSim (<em>Metabolome Evolution Simulator</em>) is a Python package providing numerical tools to simulate the long-term evolution of metabolic levels in kinetic models of metabolism.
+                <p class="card-text text-justify font-weight-light"><span class="dropcap">M</span>etEvolSim (<em>Metabolome Evolution Simulator</em>) is a Python package providing numerical tools to simulate the long-term evolution of metabolic levels in kinetic models of metabolism.
                 MetEvolSim takes as an input any <a href="http://sbml.org/Main_Page" target="_blank">SBML</a> metabolic network model, as soon as the kinetic model is fully specified, and a stable steady-state exists. Steady-state concentrations are computed thanks to <a href="http://copasi.org/" target="_blank">Copasi</a> software.</p>
                 <p class="card-text text-justify font-weight-light">MetEvolSim is distributed as a user friendly <a href="https://pypi.org/project/MetEvolSim/" target="_blank">Pypi package</a>. The full description of the simulation framework, first usage and some examples are provided on the <a href="https://pypi.python.org/pypi/MetEvolSim/" target="_blank">Github page</a>.</p>
                 <h5>Publications and communications</h5>
                 <p class="card-text text-justify font-weight-light">
-                • One manuscript in preparation.
+                • <strong>August. 2022:</strong> One pre-print in BioRXiv <a href="https://www.biorxiv.org/content/10.1101/2022.08.15.503737v1" target="_blank">(link)</a>.
                 <br/>
                 • <strong>Feb. 2020:</strong> <em>Evolutionary Systems Biology, Wellcome Genome Campus</em> (Cambridge, United Kingdom) <a href="https://coursesandconferences.wellcomegenomecampus.org/wp-content/uploads/2020/01/Evolutionary-Systems-Biology-abstract.pdf" target="_blank">(link)</a>
                 </p>
@@ -203,7 +233,7 @@
                   <a href="https://github.com/charlesrocabert/MoRIS/actions" target="_blank"><img src="https://github.com/charlesrocabert/MoRIS/workflows/CMake/badge.svg" /></a>&nbsp;
                   <a href="https://github.com/charlesrocabert/MoRIS/LICENSE.html" target="_blank"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg" /></a>
                 </p>
-                <p class="card-text text-justify font-weight-light">MoRIS (<em>Model of Routes of Invasive Spread</em>) is a spatially explicit spread model designed to simulate invasive species dispersal by transport at local to regional spatial scales. MoRIS is an innovative, yet simple model, taking into account the road network topology to influence the direction of dispersal events. MoRIS is designed to minimize <em>a priori</em> making (<em>e.g.</em>, expert knowledge), to enable the estimation of human-mediated dispersal parameters based on a simple presence/absence locations dataset and to produce predictive maps of spread.</p>
+                <p class="card-text text-justify font-weight-light"><span class="dropcap">M</span>oRIS (<em>Model of Routes of Invasive Spread</em>) is a spatially explicit spread model designed to simulate invasive species dispersal by transport at local to regional spatial scales. MoRIS is an innovative, yet simple model, taking into account the road network topology to influence the direction of dispersal events. MoRIS is designed to minimize <em>a priori</em> making (<em>e.g.</em>, expert knowledge), to enable the estimation of human-mediated dispersal parameters based on a simple presence/absence locations dataset and to produce predictive maps of spread.</p>
                 <p class="card-text text-justify font-weight-light">To learn how to use MoRIS, first install the <a href="https://github.com/charlesrocabert/MoRIS/releases/latest" target="_blank">latest release</a>, and follow the <a href="https://github.com/charlesrocabert/MoRIS/" target="_blank">installation instructions and the first usage guide</a>. MoRIS software requires input files built in a certain way. To learn how to build this files, read the <a href="https://github.com/charlesrocabert/MoRIS/blob/master/INPUT_FILES_TUTORIAL.md" target="_blank">input files tutorial</a>.</p>
                 <h5>Publications and communications</h5>
                 <p class="card-text text-justify font-weight-light">
@@ -242,12 +272,12 @@
                   <a href="https://github.com/charlesrocabert/SigmaFGM/actions" target="_blank"><img src="https://github.com/charlesrocabert/SigmaFGM/workflows/CMake/badge.svg" /></a>&nbsp;
                   <a href="https://github.com/charlesrocabert/SigmaFGM/LICENSE.html" target="_blank"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg" /></a>
                 </p>
-                <p class="card-text text-justify font-weight-light">&sigma;FGM simulates adaptive evolution in Fisher's geometric model with an evolvable phenotypic noise. A population of individuals is placed under stabilizing selection and must evolve towards a fitness optimum. The fitness function is configurable and can adopt non-Gaussian shapes. Phenotypic noise is modeled by an evolvable multivariate normal distribution. Simulations are fully configurable. See <a href="https://github.com/charlesrocabert/SigmaFGM/" target="_blank">the installation instructions and a first usage</a>, and <a href="https://doi.org/10.1111/evo.14083" target="_blank">Rocabert et al. (2020)</a> for a full description of the underlying mathematical model.</p>
+                <p class="card-text text-justify font-weight-light"><span class="dropcap">&sigma;</span>FGM simulates adaptive evolution in Fisher's geometric model with an evolvable phenotypic noise. A population of individuals is placed under stabilizing selection and must evolve towards a fitness optimum. The fitness function is configurable and can adopt non-Gaussian shapes. Phenotypic noise is modeled by an evolvable multivariate normal distribution. Simulations are fully configurable. See <a href="https://github.com/charlesrocabert/SigmaFGM/" target="_blank">the installation instructions and a first usage</a>, and <a href="https://doi.org/10.1111/evo.14083" target="_blank">Rocabert et al. (2020)</a> for a full description of the underlying mathematical model.</p>
                 <h5>Publications and communications</h5>
                 <p class="card-text text-justify font-weight-light">
-                • <strong>2020:</strong> <em>Evolution</em>. <a href="https://doi.org/10.1111/evo.14083" target="_blank">(link)</a>
+                • <strong>2020:</strong> <em>Evolution journal</em>. <a href="https://doi.org/10.1111/evo.14083" target="_blank">(link)</a>
                 <br/>
-                • <strong>Nov. 2019:</strong> <em>EvoLyon 2019</em>. <a href="https://hal.archives-ouvertes.fr/hal-02402443/file/poster2_v3.pdf" target="_blank">(link)</a>
+                • <strong>Nov. 2019:</strong> <em>Conference EvoLyon 2019</em>. <a href="https://hal.archives-ouvertes.fr/hal-02402443/file/poster2_v3.pdf" target="_blank">(link)</a>
                 <br/>
                 </p>
               </div>
@@ -281,8 +311,8 @@
                   <a href="https://github.com/charlesrocabert/Evo2Sim/releases/latest" target="_blank"><img src="https://img.shields.io/badge/build-passing-green.svg" /></a>&nbsp;
                   <a href="https://www.gnu.org/licenses/gpl-3.0" target="_blank"><img src="https://img.shields.io/badge/license-GPL v3-blue.svg" /></a>
                 </p>
-                <p class="card-text text-justify font-weight-light">Evo<sup>2</sup>Sim (<em>Evolution of Evolution Simulator</em>) is a multi-scale evolutionary model which takes into account the (ultra-fast) dynamics of metabolic networks, the (fast) dynamics of gene regulatory networks, the (medium to slow) dynamics of resources in the ecosystem and the (slow) evolutionary dynamics of genes and genome structure. Evo<sup>2</sup>Sim is designed to perform <em>In Silico</em> Experimental Evolution (ISEE) experiments, that mimick real experimental evolution protocols.</p>
-                <p class="card-text text-justify font-weight-light">The software is equipped with the whole tool case of experimental setups, competition assays, phylogenetic analysis. Simulations can be analyzed thanks to the HTML viewer, tracking and displaying on the fly every simulation events, from the phylogeny to ecological interactions.</p>
+                <p class="card-text text-justify font-weight-light"><span class="dropcap">E</span>vo<sup>2</sup>Sim (<em>Evolution of Evolution Simulator</em>) is a multi-scale evolutionary model which takes into account the (ultra-fast) dynamics of metabolic networks, the (fast) dynamics of gene regulatory networks, the (medium to slow) dynamics of resources in the ecosystem and the (slow) evolutionary dynamics of genes and genome structure. Evo<sup>2</sup>Sim is designed to perform <em>In Silico</em> Experimental Evolution (ISEE) experiments, that mimick real experimental evolution protocols.</p>
+                <p class="card-text text-justify font-weight-light">The software is equipped with the whole tool case of experimental setups, competition assays, phylogenetic analysis. Simulations can be analyzed thanks to the HTML viewer (see <a href="../doc/evo2sim_simulation_example/viewer/viewer.html" target="_blank">the example</a>), tracking and displaying on the fly every simulation events, from the phylogeny to ecological interactions.</p>
                 <p class="card-text text-justify font-weight-light">Evo<sup>2</sup>Sim was first developed during the EvoEvo project (<a href="http://www.evoevo.eu/" target="_blank">www.evoevo.eu</a>), funded by the European Commission (FP7-ICT-610427, FET Proactive: Evolving Living Technologies).</p>
                 <h5>Publications and communications</h5>
                 <p class="card-text text-justify font-weight-light">
@@ -305,7 +335,7 @@
 
 <div class="row">
   <div class="col text-center border-top">
-    <small class="text-muted"> &copy; 2020-2022 Charles Rocabert. All rights reserved. Powered by Hugo and Github Pages. Drawings: &copy; Manuela Michel Dikongué.</small>
+    <small class="text-muted"> &copy; 2020-2022 Charles Rocabert. All rights reserved. Powered by Hugo, Staticman and Github Pages. Drawings: &copy; Manuela Michel Dikongué.</small>
   </div>
 </div>
 

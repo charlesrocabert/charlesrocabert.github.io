@@ -12,7 +12,6 @@
     gtag('js', new Date());
     gtag('config', 'G-R5FPWGD7WK');
   </script>
-  <script async defer data-website-id="a7e9350f-c23f-4121-96a1-2acd478a356d" src="https://siteperso-umami.herokuapp.com/umami.js"></script>
 	
 	<title>Charles Rocabert | Home</title>
 	
@@ -23,9 +22,37 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-  
+  <link rel="stylesheet" href="css/bootstrap-4.2.1.min.css">
+  <link rel="stylesheet" href="../css/bootstrap-4.2.1.min.css">
+  <link rel="stylesheet" href="../../css/bootstrap-4.2.1.min.css">
+	<link rel="stylesheet" href="css/fontawesome-5.6.3.min.css">
+  <link rel="stylesheet" href="../css/fontawesome-5.6.3.min.css">
+  <link rel="stylesheet" href="../../css/fontawesome-5.6.3.min.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ" crossorigin="anonymous">
+
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js" integrity="sha384-VQ8d8WVFw0yHhCk5E8I86oOhv48xLpnDZx5T9GogA/Y84DcCKWXDmSDfn13bzFZY" crossorigin="anonymous"></script>
+
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
+      onload="renderMathInElement(document.body);"></script>
+  <script>
+  document.addEventListener("DOMContentLoaded", function()
+  {
+    renderMathInElement(document.body,
+    {
+      delimiters: [
+        {left: "$$", right: "$$", display: true},
+        {left: "$", right: "$", display: false}
+      ]
+    });
+  });
+  </script>
+
 	<style>
 	html {
 		font-size: 1rem;
@@ -130,6 +157,9 @@
         <a href="https://www.linkedin.com/in/charles-rocabert/" target="_blank" class="text-dark"><i class="fab fa-linkedin-in fa-2x"></i></a>&nbsp;&nbsp;
       </li>
       <li class="nav-item" style="margin-right:10px;">
+        <a href="https://twitter.com/CharlesRocabert" target="_blank" class="text-dark"><i class="fab fa-twitter fa-2x"></i></a>&nbsp;&nbsp;
+      </li>
+      <li class="nav-item" style="margin-right:10px;">
         <a href="mailto:charles[dot]rocabert[at]helsinki[dot]fi" target="_blank" class="text-dark"><i class="fas fa-envelope fa-2x"></i></a>
       </li>
     </ul>
@@ -139,67 +169,64 @@
 
 
 <div class="row m-3 mb-5">
+
   <div class="col-md-4 text-center">
-    <img class="shadow-sm img-thumbnail" src="img/portrait.jpg" alt="Portrait" width=350px>
+    <br/>
+    <img class="shadow-sm" src="img/portrait.png" alt="Portrait" width=250px>
     <br/><br/>
     <a type="button" class="btn btn-outline-info btn-block" href="/cv/">Resume/CV</a>
-    <br />
-    <div class="text-left">
-    <h5>Interests</h5>
-    <span class="badge badge-primary">Evolutionary Systems biology</span><br/>
-    <span class="badge badge-primary">Computational biology</span><br/>
-    <span class="badge badge-primary">Mathematical biology</span><br/>
-    <span class="badge badge-primary">Machine Learning</span>
-    </div>
+    <br/>
   </div>
+
   <div class="col-md-8 text-justify">
     <h4 class="text-secondary font-weight-light">ABOUT ME</h4>
     <p class="font-weight-light">
-      <span class="dropcap">H</span>i there! I am an evolutionary biologist, who uses computers and mathematics to explore the evolution of complex biological systems. I am studying how evolution and second-order selection shape genotypes, phenotypes and populations in variable environments, with their share of surprising and counter-intuitive effects.
+      <span class="dropcap">I</span> am an evolutionary biologist, who uses computers and mathematics to explore the evolution of complex biological systems. I am studying how adaptation and long-term selection shape genotypes, phenotypes and populations in variable environments, with their share of surprising and counter-intuitive effects.
     </p>
-
     <p class="font-weight-light">
       I am using a broad range of approaches, from mathematical modeling to individual-based simulations, bioinformatics and machine learning.
 
       Depending on their complexity, I usually consider simulation models as experimental systems (<a href="https://doi.org/10.1016/j.tree.2004.07.019" target="_blank">Peck, 2004</a>) &mdash; I conduct <em>in silico</em> evolution experiments in a computer as one would do in the real world (<a href="https://doi.org/10.1038/nrmicro2750" target="_blank">Hindré et al., 2012</a>).
     </p>
-
     <p class="font-weight-light">
       Since September 2021, I am a postdoctoral researcher at the <a href="https://www2.helsinki.fi/en/faculty-of-biological-and-environmental-sciences/research/organismal-and-evolutionary-biology" target="_blank">University of Helsinki (Organismal and Evolutionary Biology Research Program)</a>, in Prof. Frédéric Guillaume's group. Before that, I joined the <a href="http://group.szbk.u-szeged.hu/sysbiol/papp-balazs-lab-index.html" target="_blank">Balázs Papp laboratory</a> (Hungary) from May, 2018 to August 2021 and also <a href="https://team.inria.fr/beagle/" target="_blank">INRIA</a> (France) from May, 2019 to August, 2020 as a postdoctoral fellow. I defended my PhD in November, 2017 at <a href="https://www.insa-lyon.fr/en/" target="_blank">INSA de Lyon</a> (France), within the project-team <a href="https://team.inria.fr/beagle/" target="_blank">INRIA-Beagle</a>.
     </p>
-
     <p class="font-weight-light">
-      Check out the menu to learn more about my <a href="/research/" target="_blank">research activity</a> and my last posts. Discover my publicly available modeling projects <a href="/software" target="_blank">here</a> and on <a href="https://github.com/charlesrocabert" target="_blank">GitHub</a>.
+      Check out the menu to learn more about my <a href="/research/" target="_blank">research activity</a> and my last posts. Discover my publicly available software <a href="/software" target="_blank">here</a> and on <a href="https://github.com/charlesrocabert" target="_blank">GitHub</a>.
     </p>
+  </div>
+</div>
 
-    <div class="row">
-      <div class="col-lg text-center">
-        <script>
-        switch (Math.floor(Math.random() * 4)) {
-          case 0:
-            document.write('<img src="img/achem.png" alt="AChem" height=150px>');
-            break;
-          case 1:
-            document.write('<img src="img/board.png" alt="Blackboard" height=150px>');
-            break;
-          case 2:
-            document.write('<img src="img/hexagons.png" alt="Hexagons" height=150px>');
-            break;
-          case 3:
-            document.write('<img src="img/screens.png" alt="Screens" height=150px>');
-            break;
-        }
-        </script>
-      </div>
-    </div>
-
+<div class="row m-3 mb-5">
+  <div class="col-lg text-center">
+    <script>
+    switch (Math.floor(Math.random() * 4)) {
+      case 0:
+        document.write('<img src="img/achem.png" alt="AChem" height=150px>');
+        break;
+      case 1:
+        document.write('<img src="img/board.png" alt="Blackboard" height=150px>');
+        break;
+      case 2:
+        document.write('<img src="img/hexagons.png" alt="Hexagons" height=150px>');
+        break;
+      case 3:
+        document.write('<img src="img/screens.png" alt="Screens" height=150px>');
+        break;
+    }
+    </script>
   </div>
 </div>
 
 
+
+
+
+
+
 <div class="row">
   <div class="col text-center border-top">
-    <small class="text-muted"> &copy; 2020-2022 Charles Rocabert. All rights reserved. Powered by Hugo and Github Pages. Drawings: &copy; Manuela Michel Dikongué.</small>
+    <small class="text-muted"> &copy; 2020-2022 Charles Rocabert. All rights reserved. Powered by Hugo, Staticman and Github Pages. Drawings: &copy; Manuela Michel Dikongué.</small>
   </div>
 </div>
 
