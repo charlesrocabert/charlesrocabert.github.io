@@ -172,13 +172,16 @@
     <br/>
     <ul class="nav nav-tabs">
       <li class="nav-item">
-        <a class="nav-link" href="#metevolsim"><i class="fas fa-caret-down"></i> MetEvolSim</a>
+        <a class="nav-link" href="#gbatools"><i class="fas fa-caret-down"></i> gbatools</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#moris"><i class="fas fa-caret-down"></i> MoRIS</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#integrativeomics_pipeline"><i class="fas fa-caret-down"></i> Integrative-omics pipeline</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#metevolsim"><i class="fas fa-caret-down"></i> MetEvolSim</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#sigmafgm"><i class="fas fa-caret-down"></i> &sigma;FGM</a>
@@ -192,38 +195,41 @@
     </ul>
     <br/>
 
-    <!-- MetEvolSim -->
-    <div class="row justify-content-center mt-4" name="metevolsim">
+        <!-- gba tools -->
+    <div class="row justify-content-center mt-4">
       <div class="col-lg-11">
         <div class="shadow-sm card border-muted">
           <div class="row no-gutters">
             <div class="col-md-4 p-4 text-center">
-              <a name="metevolsim"></a>
-              <img src="../img/metevolsim_logo.png" alt="MetEvolSim logo" width=200px class="img-fluid">
-              <br/><br />
-              <span class="text-muted">A Python package to simulate the long-term evolution of metabolic levels.</span>
-              <br /><br />
+              <a name="gbatools"></a>
+              <img src="../img/gbapy_logo.jpg" alt="gbapy logo" width=200px class="img-fluid">
+              <br/><br/>
+              <span class="text-muted">Growth balance analysis for Python.</span>
+              <br /><br/>
               <div class="btn-group-vertical btn-block" role="group" aria-label="Button group with nested dropdown">
-              <a href="https://github.com/charlesrocabert/MetEvolSim" target="_blank" type="button" class="text-left btn btn-outline-info"><i class="fab fa-github"></i> MetEvolSim repository</a>
-              <a href="https://pypi.org/project/MetEvolSim/" target="_blank" type="button" class="text-left btn btn-outline-info"><i class="fab fa-python"></i> Pypi package</a>
+              <a href="https://github.com/charlesrocabert/gbapy" target="_blank" type="button" class="text-left btn btn-outline-info"><i class="fab fa-github"></i> gbapy repository</a>
+              <a href="https://pypi.org/project/gba/" target="_blank" type="button" class="text-left btn btn-outline-info"><i class="fab fa-python"></i> Pypi package</a>
+              </div>
+              <br/><br/>
+              <img src="../img/gbacpp_logo.jpg" alt="gbapy logo" width=150px class="img-fluid">
+              <br/><br/>
+              <span class="text-muted">Growth balance analysis for C++.</span>
+              <br/><br/>
+              <div class="btn-group-vertical btn-block" role="group" aria-label="Button group with nested dropdown">
+              <a href="https://github.com/charlesrocabert/gbacpp" target="_blank" type="button" class="text-left btn btn-outline-info"><i class="fab fa-github"></i> gbacpp repository</a>
               </div>
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title"><i class="fas fa-caret-down"></i> MetEvolSim (Metabolome Evolution Simulator)</h5>
-                <p align="center">
-                  <a href="https://badge.fury.io/py/MetEvolSim"><img src="https://badge.fury.io/py/MetEvolSim.svg" alt="PyPI version"></a>&nbsp;
-                  <a href="https://github.com/charlesrocabert/MetEvolSim/actions" target="_blank"><img src="https://github.com/charlesrocabert/MetEvolSim/workflows/Upload Python Package/badge.svg" /></a>&nbsp;
-                  <a href="https://github.com/charlesrocabert/MetEvolSim/LICENSE.html" target="_blank"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg" /></a>
+                <p class="card-text text-justify font-weight-light"><span class="dropcap">G</span>rowth balance analysis (GBA; <a href="https://doi.org/10.1371/journal.pcbi.1011156", target="_blank">Dourado et al., 2023</a>) is a mathematical framework to model and analyze metabolic networks at balanced cellular growth. Such models, called self-replicating cell (SRC) models, are non-linear in nature. To meet the challenge of expanding GBA formalism to genome-scale models, specific computational tools are therefore required to gather data and look for optimal solutions.
                 </p>
-                <p class="card-text text-justify font-weight-light"><span class="dropcap">M</span>etEvolSim (<em>Metabolome Evolution Simulator</em>) is a Python package providing numerical tools to simulate the long-term evolution of metabolic levels in kinetic models of metabolism.
-                MetEvolSim takes as an input any <a href="http://sbml.org/Main_Page" target="_blank">SBML</a> metabolic network model, as soon as the kinetic model is fully specified, and a stable steady-state exists. Steady-state concentrations are computed thanks to <a href="http://copasi.org/" target="_blank">Copasi</a> software.</p>
-                <p class="card-text text-justify font-weight-light">MetEvolSim is distributed as a user friendly <a href="https://pypi.org/project/MetEvolSim/" target="_blank">Pypi package</a>. The full description of the simulation framework, first usage and some examples are provided on the <a href="https://pypi.python.org/pypi/MetEvolSim/" target="_blank">Github page</a>.</p>
-                <h5>Publications and communications</h5>
-                <p class="card-text text-justify font-weight-light">
-                • <strong>2023:</strong> <em>Proceedings of the National Academy of Sciences.</em> 120 (35), e2302147120. <a href="https://doi.org/10.1073/pnas.2302147120" target="_blank">(link)</a>.
-                <br/>
-                • <strong>Feb. 2020:</strong> <em>Evolutionary Systems Biology, Wellcome Genome Campus.</em> (Cambridge, United Kingdom) <a href="https://coursesandconferences.wellcomegenomecampus.org/wp-content/uploads/2020/01/Evolutionary-Systems-Biology-abstract.pdf" target="_blank">(link)</a>
+                <h5 class="card-title"><i class="fas fa-caret-down"></i> Growth balance analysis for Python</h5>
+                
+                <p class="card-text text-justify font-weight-light">  
+                gbapy Python module provides user-friendly tools to build and manipulate such models. The module is equipped with functions to build models of any size (including genome-scale models) from first principles, to test and analyze them. To learn how to use gbapy, first install the <a href="https://pypi.org/project/gba/" target="_blank">latest release on PyPI</a>, and follow <a href="https://github.com/charlesrocabert/gbapy/tutorials">the tutorials</a>.
+                </p>
+                <h5 class="card-title"><i class="fas fa-caret-down"></i> Growth balance analysis for C++</h5>
+                <p class="card-text text-justify font-weight-light">gbacpp is a C++ implementation of GBA formalism dedicated to the optimization of SRC models. The software has been optimized to solve large-scale problems, for which available non-linear constraint-based solvers usually struggle. The optimization process relies on a gradient ascent approach, and is preferred for models offering a convex solution space. See <a href="https://github.com/charlesrocabert/gbacpp" target="_blank">the Github repository</a> for installation and first usage.</p>
                 </p>
               </div>
             </div>
@@ -239,32 +245,36 @@
           <div class="row no-gutters">
             <div class="col-md-4 p-4 text-center">
               <a name="moris"></a>
-              <img src="../img/moris_logo.png" alt="MoRIS logo" width=200px class="img-fluid">
-              <br/><br />
+              <img src="../img/moris_logo.png" alt="MoRIS logo" width=250px class="img-fluid">
+              <br/><br/>
               <span class="text-muted">A simulator of human-mediated dispersal via transportation networks.</span>
-              <br /><br />
+              <br /><br/>
               <div class="btn-group-vertical btn-block" role="group" aria-label="Button group with nested dropdown">
-              <a href="https://github.com/charlesrocabert/MoRIS" target="_blank" type="button" class="text-left btn btn-outline-info"><i class="fab fa-github"></i> MoRIS repository</a>
+              <a href="https://github.com/charlesrocabert/MoRIS" target="_blank" type="button" class="text-left btn btn-outline-info"><i class="fab fa-github"></i> MoRIS Universe</a>
+              <a href="https://github.com/charlesrocabert/MoRIS" target="_blank" type="button" class="text-left btn btn-outline-info"><i class="fab fa-github"></i> Original MoRIS repository</a>
               <a href="https://github.com/charlesrocabert/MoRIS/blob/master/INPUT_FILES_TUTORIAL.md" target="_blank" type="button" class="text-left btn btn-outline-info"><i class="fas fa-link"></i> Input file tutorial</a>
             </div>
             </div>
             <div class="col-md-8">
               <div class="card-body">
                 <h5 class="card-title"><i class="fas fa-caret-down"></i> MoRIS (Model of Routes of Invasive Spread)</h5>
-                <p align="center">
-                  <a href="https://github.com/charlesrocabert/MoRIS/releases/latest" target="_blank"><img src="https://img.shields.io/github/release/charlesrocabert/MoRIS/all.svg" /></a>&nbsp;
-                  <a href="https://github.com/charlesrocabert/MoRIS/actions" target="_blank"><img src="https://github.com/charlesrocabert/MoRIS/workflows/CMake/badge.svg" /></a>&nbsp;
-                  <a href="https://github.com/charlesrocabert/MoRIS/LICENSE.html" target="_blank"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg" /></a>
-                </p>
-                <p class="card-text text-justify font-weight-light"><span class="dropcap">M</span>oRIS (<em>Model of Routes of Invasive Spread</em>) is a spatially explicit spread model designed to simulate invasive species dispersal by transport at local to regional spatial scales. MoRIS is an innovative, yet simple model, taking into account the road network topology to influence the direction of dispersal events. MoRIS is designed to minimize <em>a priori</em> making (<em>e.g.</em>, expert knowledge), to enable the estimation of human-mediated dispersal parameters based on a simple presence/absence locations dataset and to produce predictive maps of spread.</p>
+                <p class="card-text text-justify font-weight-light"><span class="dropcap">M</span>oRIS (<em>Model of Routes of Invasive Spread</em>) is a spatially explicit spread model designed to simulate invasive species dispersal by transport at local to regional scales. MoRIS is an innovative, yet simple model, taking into account the road network topology to influence the direction of dispersal events. MoRIS is designed to minimize <em>a priori</em> making (<em>e.g.</em>, expert knowledge), to enable the estimation of human-mediated dispersal parameters based on a simple presence/absence locations dataset and to produce predictive maps of spread.</p>
                 <p class="card-text text-justify font-weight-light">To learn how to use MoRIS, first install the <a href="https://github.com/charlesrocabert/MoRIS/releases/latest" target="_blank">latest release</a>, and follow the <a href="https://github.com/charlesrocabert/MoRIS/" target="_blank">installation instructions and the first usage guide</a>. MoRIS software requires input files built in a certain way. To learn how to build this files, read the <a href="https://github.com/charlesrocabert/MoRIS/blob/master/INPUT_FILES_TUTORIAL.md" target="_blank">input files tutorial</a>.</p>
-                <h5>Publications and communications</h5>
+
+                <h5 class="card-title"><i class="fas fa-caret-down"></i> MoRIS Universe</h5>
+                <p class="card-text text-justify font-weight-light">We are now expending MoRIS to include more features: see <a href="https://github.com/MoRIS-Universe" target="_blank">MoRIS Universe</a>.</p>
+
+                <h5 class="card-title">Publications and communications</h5>
                 <p class="card-text text-justify font-weight-light">
-                • <strong>2023:</strong> <em>Ecography.</em> in press. <a href="https://doi.org/10.1111/ecog.07068" target="_blank">(link)</a>
+                <span class="badge badge-pill badge-info">2024</span> <em>Ecography.</em> (3), e07068. <a href="https://doi.org/10.1111/ecog.07068" target="_blank">(link)</a>
                 <br/>
-                • <strong>Aug. 2016:</strong> <em>Proceedings of IENE 2016 conference. 5th International Conference on Ecology and Transportation: Integrating Transport Infrastructures with Living Landscapes</em> (Lyon, France). <a href="http://hal.cirad.fr/LJK_MAD_STEEP/hal-01412280v1" target="_blank">(link)</a>
+                <span class="badge badge-pill badge-info">Aug. 2016</span> <em>Proceedings of IENE 2016 conference. 5th International Conference on Ecology and Transportation: Integrating Transport Infrastructures with Living Landscapes</em> (Lyon, France). <a href="http://hal.cirad.fr/LJK_MAD_STEEP/hal-01412280v1" target="_blank">(link)</a>
                 <br/>
-                • <strong>Jul. 2015:</strong> <em>Proceedings of World Conference on Natural Resource Modeling</em> (Bordeaux, France). <a href="https://hal.archives-ouvertes.fr/hal-01242828/" target="_blank">(link)</a>
+                <span class="badge badge-pill badge-info">Jul. 2015</span> <em>Proceedings of World Conference on Natural Resource Modeling</em> (Bordeaux, France). <a href="https://hal.archives-ouvertes.fr/hal-01242828/" target="_blank">(link)</a>
+                </p>
+
+                <p class="text-center">
+                <img src="../img/travelling_ant.png" alt="The travelling ant" width=100px class="img-fluid">
                 </p>
               </div>
             </div>
@@ -285,20 +295,54 @@
               <span class="text-muted">Integrative-omics pipeline to detect signals of selection during stressful environmental change.</span>
               <br /><br />
               <div class="btn-group-vertical btn-block" role="group" aria-label="Button group with nested dropdown">
-                <a href="https://github.com/charlesrocabert/Tribolium-castaneum-transcriptomics-pipeline" target="_blank" type="button" class="text-left btn btn-outline-info"><i class="fab fa-github"></i> Pipeline repository</a>
+                <a href="https://github.com/charlesrocabert/Koch-et-al-Predictability-of-Gene-Expression" target="_blank" type="button" class="text-left btn btn-outline-info"><i class="fab fa-github"></i> Pipeline repository</a>
               </div>
             </div>
             <div class="col-md-8">
               <div class="card-body">
                 <h5 class="card-title"><i class="fas fa-caret-down"></i> <em>Tribolium castaneum</em> integrative-omics pipeline</h5>
-                <p align="center">
-                  <a href="https://github.com/charlesrocabert/Tribolium-castaneum-transcriptomics-pipeline/LICENSE.html" target="_blank"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg" /></a>
-                </p>
-                <p class="card-text text-justify font-weight-light"><span class="dropcap">T</span>he objective of this pipeline is to integrate the detection of signals of selection at multiple levels of the genotype-to-phenotype map. The originality of this approach is to both detect allele frequency changes (AFCs) and gene expression changes through generations, using the same individual-level RNA-seq dataset. Recent studies have demonstrated the possibility to detect SNPs from RNA-seq data, assuming that only expressed regions of the genome are available. The approach covers a vast amount of methodologies, including variants call, the calculation of AFCs and the genetic map, read counts, or the detection of eQTLs and gene expression modules.</p>
+                
+                <p class="card-text text-justify font-weight-light"><span class="dropcap">T</span>he objective of this -omics pipeline is to integrate the detection of selection signals at multiple levels of the genotype-to-phenotype map. The originality of the approach relies in both detecting allele frequency changes (AFCs) and gene expression changes through generations, using the same individual-level RNA-seq dataset. Recent studies have demonstrated the possibility to accurately detect SNPs from RNA-seq data, assuming that only expressed regions of the genome are available. This approach covers a vast amount of methodologies, including variants call, the calculation of AFCs, read counts, or the detection of eQTLs and gene expression modules.</p>
                 <h5>Publications and communications</h5>
                 <p class="card-text text-justify font-weight-light">
-                • One manuscript in preparation.
+                <span class="badge badge-pill badge-info">2025</span> <em>Evolution Letters.</em> in press <a href="https://doi.org/10.1101/2024.07.22.604294" target="_blank">(link)</a>
                 <br/>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MetEvolSim -->
+    <div class="row justify-content-center mt-4" name="metevolsim">
+      <div class="col-lg-11">
+        <div class="shadow-sm card border-muted">
+          <div class="row no-gutters">
+            <div class="col-md-4 p-4 text-center">
+              <a name="metevolsim"></a>
+              <img src="../img/metevolsim_logo.png" alt="MetEvolSim logo" width=200px class="img-fluid">
+              <br/><br />
+              <span class="text-muted">A Python package to simulate the long-term evolution of metabolic levels.</span>
+              <br /><br />
+              <div class="btn-group-vertical btn-block" role="group" aria-label="Button group with nested dropdown">
+              <a href="https://github.com/charlesrocabert/MetEvolSim" target="_blank" type="button" class="text-left btn btn-outline-info"><i class="fab fa-github"></i> MetEvolSim repository</a>
+              <a href="https://pypi.org/project/MetEvolSim/" target="_blank" type="button" class="text-left btn btn-outline-info"><i class="fab fa-python"></i> Pypi package</a>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-caret-down"></i> MetEvolSim (Metabolome Evolution Simulator)</h5>
+
+                <p class="card-text text-justify font-weight-light"><span class="dropcap">M</span>etEvolSim (<em>Metabolome Evolution Simulator</em>) is a Python package providing numerical tools to simulate the long-term evolution of metabolic levels in kinetic models of metabolism.
+                MetEvolSim takes as an input any <a href="http://sbml.org/Main_Page" target="_blank">SBML</a> metabolic network model, as soon as the kinetic model is fully specified, and a stable steady-state exists. Steady-state concentrations are computed thanks to <a href="http://copasi.org/" target="_blank">Copasi</a> software.</p>
+                <p class="card-text text-justify font-weight-light">MetEvolSim is distributed as a user friendly <a href="https://pypi.org/project/MetEvolSim/" target="_blank">Pypi package</a>. The full description of the simulation framework, first usage and some examples are provided on the <a href="https://pypi.python.org/pypi/MetEvolSim/" target="_blank">Github page</a>.</p>
+                <h5>Publications and communications</h5>
+                <p class="card-text text-justify font-weight-light">
+                <span class="badge badge-pill badge-info">2023</span> <em>Proceedings of the National Academy of Sciences.</em> 120 (35), e2302147120. <a href="https://doi.org/10.1073/pnas.2302147120" target="_blank">(link)</a>.
+                <br/>
+                <span class="badge badge-pill badge-info">Feb. 2020</span> <em>Evolutionary Systems Biology, Wellcome Genome Campus.</em> (Cambridge, United Kingdom) <a href="https://coursesandconferences.wellcomegenomecampus.org/wp-content/uploads/2020/01/Evolutionary-Systems-Biology-abstract.pdf" target="_blank">(link)</a>
                 </p>
               </div>
             </div>
@@ -325,17 +369,13 @@
             <div class="col-md-8">
               <div class="card-body">
                 <h5 class="card-title"><i class="fas fa-caret-down"></i> &sigma;FGM (Fisher's geometric model with evolvable phenotypic noise)</h5>
-                <p align="center">
-                  <a href="https://github.com/charlesrocabert/SigmaFGM/releases/latest" target="_blank"><img src="https://img.shields.io/github/release/charlesrocabert/SigmaFGM/all.svg" /></a>&nbsp;
-                  <a href="https://github.com/charlesrocabert/SigmaFGM/actions" target="_blank"><img src="https://github.com/charlesrocabert/SigmaFGM/workflows/CMake/badge.svg" /></a>&nbsp;
-                  <a href="https://github.com/charlesrocabert/SigmaFGM/LICENSE.html" target="_blank"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg" /></a>
-                </p>
-                <p class="card-text text-justify font-weight-light"><span class="dropcap">&sigma;</span>FGM simulates adaptive evolution in Fisher's geometric model with an evolvable phenotypic noise. A population of individuals is placed under stabilizing selection and must evolve towards a fitness optimum. The fitness function is configurable and can adopt non-Gaussian shapes. Phenotypic noise is modeled by an evolvable multivariate normal distribution. Simulations are fully configurable. See <a href="https://github.com/charlesrocabert/SigmaFGM/" target="_blank">the installation instructions and a first usage</a>, and <a href="https://doi.org/10.1111/evo.14083" target="_blank">Rocabert et al. (2020)</a> for a full description of the underlying mathematical model.</p>
+                
+                <p class="card-text text-justify font-weight-light"><span class="dropcap">&sigma;</span>FGM simulates adaptive evolution in Fisher's geometric model with an evolvable phenotypic noise. A population of individuals is placed under stabilizing selection and must evolve towards a fitness optimum. The fitness function is configurable and can adopt non-Gaussian shapes. Phenotypic noise is modeled by an evolvable multivariate normal distribution. See <a href="https://github.com/charlesrocabert/SigmaFGM/" target="_blank">the installation instructions and a first usage</a>, and <a href="https://doi.org/10.1111/evo.14083" target="_blank">Rocabert et al. (2020)</a> for a full description of the underlying mathematical model.</p>
                 <h5>Publications and communications</h5>
                 <p class="card-text text-justify font-weight-light">
-                • <strong>2020:</strong> <em>Evolution</em> 74 (10), 2221-2237. <a href="https://doi.org/10.1111/evo.14083" target="_blank">(link)</a>
+                <span class="badge badge-pill badge-info">2020</span> <em>Evolution</em> 74 (10), 2221-2237. <a href="https://doi.org/10.1111/evo.14083" target="_blank">(link)</a>
                 <br/>
-                • <strong>Nov. 2019:</strong> <em>Conference EvoLyon 2019</em>. <a href="https://hal.archives-ouvertes.fr/hal-02402443/file/poster2_v3.pdf" target="_blank">(link)</a>
+                <span class="badge badge-pill badge-info">Nov. 2019</span> <em>Conference EvoLyon 2019</em>. <a href="https://hal.archives-ouvertes.fr/hal-02402443/file/poster2_v3.pdf" target="_blank">(link)</a>
                 <br/>
                 </p>
               </div>
@@ -365,21 +405,17 @@
             <div class="col-md-8">
               <div class="card-body">
                 <h5 class="card-title"><i class="fas fa-caret-down"></i> Evo<sup>2</sup>Sim (Evolution of Evolution Simulator)</h5>
-                <p align="center">
-                  <a href="https://github.com/charlesrocabert/Evo2Sim/releases/latest" target="_blank"><img src="https://img.shields.io/badge/version- v1.0.2-green.svg" /></a>&nbsp;
-                  <a href="https://github.com/charlesrocabert/Evo2Sim/releases/latest" target="_blank"><img src="https://img.shields.io/badge/build-passing-green.svg" /></a>&nbsp;
-                  <a href="https://www.gnu.org/licenses/gpl-3.0" target="_blank"><img src="https://img.shields.io/badge/license-GPL v3-blue.svg" /></a>
-                </p>
+
                 <p class="card-text text-justify font-weight-light"><span class="dropcap">E</span>vo<sup>2</sup>Sim (<em>Evolution of Evolution Simulator</em>) is a multi-scale evolutionary model which takes into account the (ultra-fast) dynamics of metabolic networks, the (fast) dynamics of gene regulatory networks, the (medium to slow) dynamics of resources in the ecosystem and the (slow) evolutionary dynamics of genes and genome structure. Evo<sup>2</sup>Sim is designed to perform <em>In Silico</em> Experimental Evolution (ISEE) experiments, that mimick real experimental evolution protocols.</p>
                 <p class="card-text text-justify font-weight-light">The software is equipped with the whole tool case of experimental setups, competition assays, phylogenetic analysis. Simulations can be analyzed thanks to the HTML viewer (see <a href="../doc/evo2sim_simulation_example/viewer/viewer.html" target="_blank">the example</a>), tracking and displaying on the fly every simulation events, from the phylogeny to ecological interactions.</p>
                 <p class="card-text text-justify font-weight-light">Evo<sup>2</sup>Sim was first developed during the EvoEvo project (<a href="http://www.evoevo.eu/" target="_blank">www.evoevo.eu</a>), funded by the European Commission (FP7-ICT-610427, FET Proactive: Evolving Living Technologies).</p>
                 <h5>Publications and communications</h5>
                 <p class="card-text text-justify font-weight-light">
-                • <strong>2017:</strong> <em>PLoS computational biology</em>, 13(3), e1005459. <a href="https://doi.org/10.1371/journal.pcbi.1005459" target="_blank">(link)</a>
+                <span class="badge badge-pill badge-info">2017</span> <em>PLoS computational biology</em>, 13(3), e1005459. <a href="https://doi.org/10.1371/journal.pcbi.1005459" target="_blank">(link)</a>
                 <br/>
-                • <strong>Sep. 2017:</strong> <em>Proceedings of the 14th European Conference on Artificial Life (ECAL)</em> (Villeurbanne, France). <a href="https://hal.archives-ouvertes.fr/hal-01569093/" target="_blank">(link)</a>
+                <span class="badge badge-pill badge-info">Sep. 2017</span> <em>Proceedings of the 14th European Conference on Artificial Life (ECAL)</em> (Villeurbanne, France). <a href="https://hal.archives-ouvertes.fr/hal-01569093/" target="_blank">(link)</a>
                 <br/>
-                • <strong>Jul. 2015:</strong> <em>Proceedings of the EvoEvo Workshop, Satellite workshop of ECAL 2015</em> (York, UK). <a href="https://hal.inria.fr/hal-01252796/" target="_blank">(link)</a>
+                <span class="badge badge-pill badge-info">Jul. 2015</span> <em>Proceedings of the EvoEvo Workshop, Satellite workshop of ECAL 2015</em> (York, UK). <a href="https://hal.inria.fr/hal-01252796/" target="_blank">(link)</a>
                 </p>
               </div>
             </div>
@@ -407,11 +443,6 @@
             <div class="col-md-8">
               <div class="card-body">
                 <h5 class="card-title"><i class="fas fa-caret-down"></i> puutools (live tracking of lineage and coalescence trees)</h5>
-                <p align="center">
-                  <a href="https://github.com/charlesrocabert/puutools/releases/latest"><img src="https://img.shields.io/github/release/charlesrocabert/puutools/all.svg" /></a>&nbsp;
-                  <a href="https://github.com/charlesrocabert/puutools/actions"><img src="https://github.com/charlesrocabert/puutools/workflows/CMake/badge.svg" /></a>&nbsp;
-                  <a href="https://github.com/charlesrocabert/puutools/LICENSE.html"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg" /></a>
-                </p>
 
                 <p class="card-text text-justify font-weight-light"><span class="dropcap">P</span>uutools is a C++ library which allows to dynamically create, track and manage lineage and/or coalescence trees during individual-based forward-in-time simulations of evolution.</p>
 
